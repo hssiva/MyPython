@@ -5,7 +5,11 @@ Problem Statement:
 
 Building the package:
   Copy the python project locally and then 
-  > cd MyPython
-  > python setup.py build
-  To run the project
+  
+  > cd MyPython 
+  
+  > python setup.py build 
+  
+  To run the project 
+  
   > python mypython/run.py
