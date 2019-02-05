@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: MyPython
+Version: 0.0.1.dev0
+Summary: a simple python machine learning example
+Home-page: UNKNOWN
+Author: Siva
+Author-email: halasya.siva@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: machine-learing,decision-trees random-forest gradient-boosting support-vector-machines
+Platform: UNKNOWN
