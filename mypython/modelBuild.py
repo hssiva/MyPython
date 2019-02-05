@@ -172,7 +172,7 @@ def doKMeansDECClusters(df, seed=289383, n_clusters = 2):
         loss = model.train_on_batch(x=df.values[idx], y=p[idx.tolist()])
         index = index + 1 if (index + 1) * batch_size <= df.shape[0] else 0
 
-    model.save_weights('DEC_model_final.h5')
+    model.save_weights('output/DEC_model_final.h5')
     
     # Final Eval.
     q = model.predict(df.values, verbose=0)
